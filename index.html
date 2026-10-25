@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#66023c">
+  <meta name="description" content="A showcase of HospitalManagementSystem, a Java, JDBC and MySQL console application.">
+  <title>HospitalManagementSystem — Java Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="HospitalManagementSystem home"><span class="brand-mark" aria-hidden="true">H</span><span>Hospital<span class="brand-light">ManagementSystem</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#overview">Overview</a><a href="#features">Features</a><a href="#technologies">Technologies</a><a href="#database">Database</a>
+        <a class="nav-source" href="https://github.com/its-silver-lynx/Hospital-Management_JDBC_Project" target="_blank" rel="noopener noreferrer">View source <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> JAVA · JDBC · MYSQL</p>
+          <h1>Hospital<span>ManagementSystem</span></h1>
+          <p class="hero-lede">A console-based Java project for managing patient records, doctors, and appointments with a MySQL database.</p>
+          <div class="hero-actions"><a class="button button-primary" href="https://github.com/its-silver-lynx/Hospital-Management_JDBC_Project" target="_blank" rel="noopener noreferrer">Explore Source Code <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="#overview">Explore the project <span aria-hidden="true">↓</span></a></div>
+          <p class="hero-note"><span class="status-dot" aria-hidden="true"></span> A learning project, presented as a static showcase</p>
+        </div>
+        <div class="hero-visual" aria-label="Illustration of a hospital database console, not an interactive application">
+          <div class="visual-glow"></div>
+          <div class="console-window">
+            <div class="console-top"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>Hospital Management</span><span class="console-java">JAVA</span></div>
+            <div class="console-content"><div class="console-heading"><span class="mini-mark">H</span><div><strong>Hospital Management</strong><small>Patient &amp; appointment system</small></div></div>
+              <div class="console-rule"></div><p class="console-prompt">MAIN MENU</p>
+              <div class="menu-row"><span class="menu-number">01</span><span>Add patient</span><span class="menu-arrow">›</span></div>
+              <div class="menu-row"><span class="menu-number">02</span><span>View patients</span><span class="menu-arrow">›</span></div>
+              <div class="menu-row"><span class="menu-number">03</span><span>View doctors</span><span class="menu-arrow">›</span></div>
+              <div class="menu-row selected"><span class="menu-number">04</span><span>Book appointment</span><span class="menu-arrow">›</span></div>
+              <div class="console-bottom"><span class="terminal-cursor" aria-hidden="true"></span> Choose an option <span class="cursor-block" aria-hidden="true"></span></div>
+            </div>
+          </div>
+          <div class="floating-tag tag-jdbc"><span class="tag-icon">↔</span><span><strong>JDBC</strong><small>Database connection</small></span></div>
+          <div class="floating-tag tag-mysql"><span class="mysql-icon">▤</span><span><strong>MySQL</strong><small>Relational storage</small></span></div>
+          <div class="visual-caption">A glimpse of the console experience <span>01 / 01</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom wrap"><span>BUILT TO PRACTICE THE FUNDAMENTALS</span><span class="scroll-cue">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <section class="section overview-section" id="overview"><div class="wrap overview-grid">
+      <div><p class="eyebrow"><span class="eyebrow-line"></span> THE PROJECT</p><h2>A practical introduction to <em>connected data.</em></h2></div>
+      <div class="overview-copy"><p>HospitalManagementSystem is a menu-driven Java console application for keeping track of patients, doctors, and appointments. It brings together core Java programming and relational database concepts in one focused project.</p><p>Through JDBC, the application communicates with a MySQL database named <code>hospital</code>. It can add and view patient records, list doctors and specializations, and book appointments while checking related IDs and doctor availability for a selected date.</p><div class="overview-meta"><span><b>01</b> Console application</span><span><b>02</b> MySQL database</span><span><b>03</b> Learning project</span></div></div>
+    </div></section>
+
+    <section class="section features-section" id="features"><div class="wrap"><div class="section-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> WHAT IT DOES</p><h2>Core features, <em>kept focused.</em></h2></div><p>Every feature is handled through the application's console menu and backed by database operations.</p></div>
+      <div class="feature-list">
+        <article class="feature-item"><span class="feature-index">01</span><span class="feature-symbol" aria-hidden="true">＋</span><div><h3>Patient records</h3><p>Add patient details and view registered patients.</p></div><span class="feature-end" aria-hidden="true">↗</span></article>
+        <article class="feature-item"><span class="feature-index">02</span><span class="feature-symbol symbol-outline" aria-hidden="true">✳</span><div><h3>Doctor listings</h3><p>Browse doctors alongside their specializations.</p></div><span class="feature-end" aria-hidden="true">↗</span></article>
+        <article class="feature-item"><span class="feature-index">03</span><span class="feature-symbol symbol-calendar" aria-hidden="true">▦</span><div><h3>Appointment booking</h3><p>Book appointments for registered patients.</p></div><span class="feature-end" aria-hidden="true">↗</span></article>
+        <article class="feature-item"><span class="feature-index">04</span><span class="feature-symbol symbol-check" aria-hidden="true">✓</span><div><h3>Validation &amp; availability</h3><p>Validate patient and doctor IDs, and check doctor availability by date.</p></div><span class="feature-end" aria-hidden="true">↗</span></article>
+      </div>
+    </div></section>
+
+    <section class="tech-band" id="technologies"><div class="wrap tech-grid"><div><p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> THE TOOLKIT</p><h2>Technologies</h2><p class="tech-intro">A straightforward stack for learning how Java applications work with relational data.</p></div>
+      <div class="tech-items"><div class="tech-item"><span class="tech-number">01</span><div><h3>Java</h3><p>Application logic</p></div><span class="tech-glyph">J</span></div><div class="tech-item"><span class="tech-number">02</span><div><h3>JDBC</h3><p>Java database connectivity</p></div><span class="tech-glyph glyph-arrows">↔</span></div><div class="tech-item"><span class="tech-number">03</span><div><h3>MySQL</h3><p>Relational database</p></div><span class="tech-glyph glyph-db">▤</span></div><div class="tech-item"><span class="tech-number">04</span><div><h3>Connector/J</h3><p>MySQL JDBC driver</p></div><span class="tech-glyph glyph-link">⌁</span></div></div>
+    </div></section>
+
+    <section class="section database-section" id="database"><div class="wrap"><div class="section-heading database-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> DATA MODEL</p><h2>Three tables. <em>One small system.</em></h2></div><p>The <code>hospital</code> database keeps patient, doctor, and appointment data in related tables.</p></div>
+      <div class="table-grid">
+        <article class="table-card"><div class="table-card-head"><span class="table-icon" aria-hidden="true">▤</span><span class="table-label">TABLE 01</span></div><h3>patients</h3><p class="table-purpose">Patient records</p><ul class="column-list"><li><span>id</span><small>Patient ID</small><b>PK</b></li><li><span>name</span><small>Full name</small></li><li><span>age</span><small>Age</small></li><li><span>gender</span><small>Gender</small></li></ul></article>
+        <article class="table-card"><div class="table-card-head"><span class="table-icon" aria-hidden="true">▤</span><span class="table-label">TABLE 02</span></div><h3>doctors</h3><p class="table-purpose">Doctor directory</p><ul class="column-list"><li><span>id</span><small>Doctor ID</small><b>PK</b></li><li><span>name</span><small>Full name</small></li><li><span>specialization</span><small>Specialization</small></li></ul></article>
+        <article class="table-card"><div class="table-card-head"><span class="table-icon" aria-hidden="true">▤</span><span class="table-label">TABLE 03</span></div><h3>appointments</h3><p class="table-purpose">Scheduled visits</p><ul class="column-list"><li><span>id</span><small>Appointment ID</small><b>PK</b></li><li><span>patient_id</span><small>Patient reference</small><b>FK</b></li><li><span>doctor_id</span><small>Doctor reference</small><b>FK</b></li><li><span>appointment_date</span><small>Selected date</small></li></ul></article>
+      </div><p class="schema-note"><span aria-hidden="true">↳</span> Appointments connect a patient and a doctor using their IDs.</p>
+    </div></section>
+
+    <section class="learning-section"><div class="wrap learning-grid"><div><p class="eyebrow"><span class="eyebrow-line"></span> WHAT I PRACTICED</p><h2>Learning by <em>building.</em></h2><p class="learning-intro">A compact project with room to get comfortable with the building blocks of database-driven Java.</p></div><ul class="learning-list"><li><span>01</span> Java classes and objects <b>↗</b></li><li><span>02</span> JDBC connectivity <b>↗</b></li><li><span>03</span> SQL queries and prepared statements <b>↗</b></li><li><span>04</span> ResultSet handling <b>↗</b></li><li><span>05</span> Basic validation and related tables <b>↗</b></li></ul></div></section>
+
+    <section class="cta-section"><div class="wrap cta-inner"><div><p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> TAKE A CLOSER LOOK</p><h2>Curious how it <em>comes together?</em></h2><p>Explore the Java source and see the project in action from the console.</p></div><a class="button button-white" href="https://github.com/its-silver-lynx/Hospital-Management_JDBC_Project" target="_blank" rel="noopener noreferrer">Explore the repository <span aria-hidden="true">↗</span></a><span class="cta-decoration" aria-hidden="true">H</span></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">H</span><span>Hospital<span class="brand-light">ManagementSystem</span></span></a><p>A Java, JDBC &amp; MySQL learning project.</p><a class="footer-link" href="https://github.com/its-silver-lynx/Hospital-Management_JDBC_Project" target="_blank" rel="noopener noreferrer">Source repository <span aria-hidden="true">↗</span></a><span class="footer-credit">STATIC PROJECT SHOWCASE</span></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
