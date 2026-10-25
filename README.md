@@ -1,21 +1,36 @@
-# HospitalManagementSystem Showcase
+# HospitalManagementSystem — Project Showcase
 
-A responsive, static portfolio page introducing the HospitalManagementSystem Java project. The showcase describes its console workflow, features, technology stack, database tables, and learning outcomes. It does not connect to a database or run the Java application.
+A simple, responsive, static website presenting my Java-based Hospital Management System built with **Java, JDBC, and MySQL**.
 
-## Technologies
+The website introduces the project's features, technologies, database structure, and learning outcomes in a clean, beginner-friendly presentation.
+
+## What's Inside?
+
+- Project introduction and overview
+- Hospital management system features
+- Technologies used
+- Database structure
+- Learning outcomes
+- A link to the original source code
+
+## Built With
 
 - HTML5
 - CSS3
 - Vanilla JavaScript
 
-## Run locally
+## View the Website
 
-Open `index.html` in a browser, or serve the repository root with any static file server. No build step or dependencies are required.
+This website is hosted for free using GitHub Pages.
 
-## Publish with GitHub Pages
+**Live Website:** [Open the Hospital Management System Showcase](https://its-silver-lynx.github.io/Hospital-Management-Showcase/)
 
-In the showcase repository, open **Settings → Pages**, choose **Deploy from a branch**, select the `main` branch and `/ (root)` folder, then save. GitHub Pages will publish `index.html` from the repository root.
+## Source Code
 
-## Java source
+Interested in the project? Explore the source code, clone the repository, and try it yourself!
 
-[HospitalManagementSystem Java project](https://github.com/its-silver-lynx/Hospital-Management_JDBC_Project)
+[**HospitalManagementSystem — GitHub Repository**](https://github.com/its-silver-lynx/Hospital-Management_JDBC_Project)
+
+## Author
+
+**Priyanshu** · [GitHub Profile](https://github.com/its-silver-lynx)
